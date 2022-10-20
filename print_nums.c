@@ -3,7 +3,7 @@
  * print_i - prints an integer
  * @i: integer to print
  *
- * Return: number of chars and digits printed
+ * Return: number of chars and digits
  */
 int print_i(va_list i)
 {
@@ -42,7 +42,7 @@ int print_i(va_list i)
  * print_d - prints a decimal
  * @d: decimal to print
  *
- * Return: number of chars and digits printed
+ * Return: number of chars and digits
  */
 int print_d(va_list d)
 {
