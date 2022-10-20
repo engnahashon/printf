@@ -15,7 +15,10 @@ typedef struct print
 	int (*f)(va_list);
 } print_t;
 
+void _putchar(char c);
 int _printf(const char *format, ...);
 static int (*specifier_check(const char *format))(va_list);
+int print_c(va_list c);
+int print_s(va_list s);
 
 #endif
